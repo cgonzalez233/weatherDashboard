@@ -1,0 +1,40 @@
+/* Header */
+header {
+    background-color: #343A40;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+/* /* Header * */
+
+.container {
+    align-content: center;
+    margin-top: 20px;
+}
+
+/* 5 Day Forecast Formatting */
+.smallText {
+    font-size: small;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.cardSpace {
+    margin: 10px 10px 0px 10px;
+}
+/* 5 Day Forecast Formatting */
+
+/* Search Bar / Cities Formatting */
+.searchSec {
+    margin: 0px auto 0px auto;
+}
+/* Search Bar / Cities Formatting */
+
+
+/* Main Weather Card Formatting */
+.weatherCard {
+    margin: 0px 0px 20px -20px;
+}
+/* Main Weather Card Formatting */
