@@ -21,7 +21,9 @@ h6 {
     font-size: 14px;
 }
 
-.cardSpace {
+.cardFormat {
+    max-width: 7.5rem; 
+    max-height: 10rem;
     margin: 10px 10px 0px 10px;
 }
 /* 5 Day Forecast Formatting */
