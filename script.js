@@ -12,15 +12,6 @@ $(document).ready(function(){
         });
     }
 
-    function clearCity(){
-        $("mainCard").empty();
-        cityName.empty();
-        mainTemp.empty();
-        humidity.empty();
-        windSpeed.empty();
-        uvi.empty();
-    };
-
     printCity();
 
 
