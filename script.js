@@ -12,6 +12,15 @@ $(document).ready(function(){
         });
     }
 
+    function clearCity(){
+        $("mainCard").empty();
+        cityName.empty();
+        mainTemp.empty();
+        humidity.empty();
+        windSpeed.empty();
+        uvi.empty();
+    };
+
     printCity();
 
 
@@ -19,9 +28,11 @@ $(document).ready(function(){
 
     function weatherCall(city){
         var forecastCards = $("#forecastRow")
+        var mainCard = $("#mainCard")
         const coordinates = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + appid;
     
         forecastCards.empty()
+        mainCard.empty()
 
 
         $.ajax({
@@ -64,6 +75,7 @@ $(document).ready(function(){
                 var uvi = $("<p>");
                 uvi.addClass("card-text");
                 uvi.text("UV Index: " + res.daily[0].uvi);
+
 
                 $("#mainCard").append(mainBody)
                 mainBody.append(cityName, mainTemp, humidity, windSpeed, uvi);
