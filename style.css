@@ -14,17 +14,32 @@ header {
 
 /* 5 Day Forecast Formatting */
 .smallText {
-    font-size: small;
+    font-size: 0.8rem;
 }
 
-h6 {
-    font-size: 14px;
+.card-body{
+    padding: 0.4rem;
 }
 
 .cardFormat {
-    max-width: 7.5rem; 
-    max-height: 10rem;
-    margin: 10px 10px 0px 10px;
+    min-width: 125px;
+    flex-grow: 0;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.cardDates{
+    margin-bottom: -5px;
+}
+
+.iconSizing{
+    width: 50px;
+}
+
+.card-text {
+    margin-bottom: 8px;
 }
 /* 5 Day Forecast Formatting */
 
@@ -37,6 +52,7 @@ h6 {
 
 /* Main Weather Card Formatting */
 .weatherCard {
-    margin: 0px 0px 20px -20px;
+    margin: 0px 0px 10px -20px;
+    max-height: 200px;
 }
 /* Main Weather Card Formatting */
